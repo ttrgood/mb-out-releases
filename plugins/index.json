@@ -1,6 +1,6 @@
 {
   "mbout_plugin_index": 1,
-  "updated": "2026-10-30T07:59:51-05:00",
+  "updated": "2026-10-30T07:59:54-05:00",
   "submit_url": "https://1521114290-325mb76av1.ap-guangzhou.tencentscf.com/submit",
   "plugins": [
     {
@@ -29,8 +29,8 @@
       "author": "MB out",
       "description": "选中一段文字再点：算式求值、数字求和、去空行、去重、全角转半角",
       "items": 5,
-      "size": 1939,
-      "sha256": "4739dd6c0bd741886b44661bafa33a4bbe9852ddeca80465323c4227b6d9191d",
+      "size": 2074,
+      "sha256": "d44d9954f43298eaccfe40854ee8854bf03ea9db68986b4d2f189bf577f9f86b",
       "min_app": "",
       "updated": "2026-10-30",
       "source": "official",
@@ -38,7 +38,8 @@
       "urls": [
         "https://gitee.com/ttrgood/mb-out-releases/raw/main/plugins/mbout.text-tools.mbplug",
         "https://raw.githubusercontent.com/ttrgood/mb-out-releases/main/plugins/mbout.text-tools.mbplug"
-      ]
+      ],
+      "cover": "v:text|#a78bfa"
     },
     {
       "id": "mbout.everything",
