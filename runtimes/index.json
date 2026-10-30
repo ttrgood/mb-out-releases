@@ -1,0 +1,316 @@
+{
+  "mbout_runtime_index": 1,
+  "updated": "2026-10-30T08:07:34-05:00",
+  "pip_index": "https://pypi.tuna.tsinghua.edu.cn/simple",
+  "npm_registry": "https://registry.npmmirror.com",
+  "pip_allow": [
+    "openpyxl",
+    "xlrd",
+    "pandas",
+    "numpy",
+    "requests",
+    "beautifulsoup4",
+    "lxml",
+    "pillow",
+    "python-docx",
+    "python-pptx",
+    "pypdf",
+    "pdfplumber",
+    "pyyaml",
+    "markdown",
+    "jieba",
+    "pypinyin",
+    "qrcode",
+    "chardet",
+    "matplotlib",
+    "opencc-python-reimplemented"
+  ],
+  "runtimes": [
+    {
+      "id": "python-3.12",
+      "name": "Python 3.12",
+      "version": "3.12.9",
+      "desc": "运行 Python 脚本，可装常用的 Python 包",
+      "kind": "zip",
+      "size": 13223431,
+      "sha256": "cfc7b3dbea1fc26951b47e52eb94f18ba6beb6f16d122f9568843bfe81c6358c",
+      "urls": [
+        "https://gitee.com/ttrgood/mb-out-releases/releases/download/runtimes/python-3.12-3.12.9.zip",
+        "https://github.com/ttrgood/mb-out-releases/releases/download/runtimes/python-3.12-3.12.9.zip"
+      ],
+      "bin": [
+        "python.exe"
+      ],
+      "env": {
+        "MB_PYTHON": "python.exe"
+      },
+      "detect": [
+        "python",
+        "py",
+        "pip"
+      ],
+      "pip": true
+    },
+    {
+      "id": "node-24",
+      "name": "Node.js 24",
+      "version": "24.22.2",
+      "desc": "运行 JavaScript 脚本",
+      "kind": "zip",
+      "size": 37754834,
+      "sha256": "ca1bff5d8ead13c9f2ea404a176db46bd430704d5b5113734049fa365e7799e2",
+      "urls": [
+        "https://registry.npmmirror.com/-/binary/node/v24.22.2/node-v24.22.2-win-x64.zip",
+        "https://nodejs.org/dist/v24.22.2/node-v24.22.2-win-x64.zip"
+      ],
+      "bin": [
+        "node-v24.22.2-win-x64/node.exe",
+        "node-v24.22.2-win-x64/npm.cmd",
+        "node-v24.22.2-win-x64/npx.cmd"
+      ],
+      "env": {
+        "MB_NODE": "node-v24.22.2-win-x64/node.exe"
+      },
+      "detect": [
+        "node",
+        "npm",
+        "npx"
+      ]
+    },
+    {
+      "id": "java-21",
+      "name": "Java 21 运行环境",
+      "version": "21.0.13",
+      "desc": "运行 Java 程序（.jar）",
+      "kind": "zip",
+      "size": 49106397,
+      "sha256": "2332c0b4cff6bed722da3567c91d5e47568bcba863fa4945d0a8d6fc76158628",
+      "urls": [
+        "https://mirrors.tuna.tsinghua.edu.cn/Adoptium/21/jre/x64/windows/OpenJDK21U-jre_x64_windows_hotspot_21.0.13_9.zip"
+      ],
+      "bin": [
+        "jdk-21.0.13+9-jre/bin/java.exe"
+      ],
+      "env": {
+        "MB_JAVA": "jdk-21.0.13+9-jre/bin/java.exe"
+      },
+      "detect": [
+        "java"
+      ]
+    },
+    {
+      "id": "dotnet-8",
+      "name": ".NET 8 运行库",
+      "version": "8.0.33",
+      "desc": "运行 .NET 8 程序",
+      "kind": "zip",
+      "size": 33337136,
+      "sha256": "d88b9624950fd33ffd561462f4a23d7ef6d4173ddef55d198adab07016bc5b8c",
+      "urls": [
+        "https://builds.dotnet.microsoft.com/dotnet/Runtime/8.0.33/dotnet-runtime-8.0.33-win-x64.zip"
+      ],
+      "bin": [
+        "dotnet.exe"
+      ],
+      "detect": [
+        "dotnet"
+      ]
+    },
+    {
+      "id": "git",
+      "name": "Git（MinGit）",
+      "version": "2.47.0",
+      "desc": "版本管理、拉取代码仓库",
+      "kind": "zip",
+      "size": 47218826,
+      "sha256": "6b175d4675bfa7014ba649e3c0976da2a281d89bd9a096f1f41437f9995497a8",
+      "urls": [
+        "https://registry.npmmirror.com/-/binary/git-for-windows/v2.47.0.windows.1/MinGit-2.47.0-64-bit.zip",
+        "https://github.com/git-for-windows/git/releases/download/v2.47.0.windows.1/MinGit-2.47.0-64-bit.zip"
+      ],
+      "bin": [
+        "cmd/git.exe"
+      ],
+      "detect": [
+        "git"
+      ]
+    },
+    {
+      "id": "ffmpeg",
+      "name": "ffmpeg",
+      "version": "9.0.2",
+      "desc": "音视频转格式、剪切、提取音频、压缩视频",
+      "kind": "zip",
+      "size": 79878230,
+      "sha256": "48d22238a853e212eb87c9a1139207824867e9e0aabd4ab5d80c2d834f0727c5",
+      "urls": [
+        "https://gitee.com/ttrgood/mb-out-releases/releases/download/runtimes/ffmpeg-9.0.2.zip",
+        "https://github.com/ttrgood/mb-out-releases/releases/download/runtimes/ffmpeg-9.0.2.zip"
+      ],
+      "bin": [
+        "ffmpeg.exe",
+        "ffprobe.exe"
+      ],
+      "env": {
+        "MB_FFMPEG": "ffmpeg.exe"
+      },
+      "detect": [
+        "ffmpeg",
+        "ffprobe"
+      ]
+    },
+    {
+      "id": "7zip",
+      "name": "7-Zip",
+      "version": "23.01",
+      "desc": "解压 / 压缩 zip、7z、rar 等各种压缩包",
+      "kind": "zip",
+      "size": 1108201,
+      "sha256": "508299d2fcd4e5d5d186d9ea292c9d77313a4bafabe2600be39d2bc278bee434",
+      "urls": [
+        "https://gitee.com/ttrgood/mb-out-releases/releases/download/runtimes/7zip-23.01.zip",
+        "https://github.com/ttrgood/mb-out-releases/releases/download/runtimes/7zip-23.01.zip"
+      ],
+      "bin": [
+        "7z.exe"
+      ],
+      "env": {
+        "MB_7Z": "7z.exe"
+      },
+      "detect": [
+        "7z",
+        "7za"
+      ]
+    },
+    {
+      "id": "imagemagick",
+      "name": "ImageMagick",
+      "version": "7.1.2-34",
+      "desc": "批量改图片大小、格式、加水印、拼图",
+      "kind": "zip",
+      "size": 13756989,
+      "sha256": "eb6a106e32b91e1d9517423ef2ccf112c53bd41f17551d205c174424781dd837",
+      "urls": [
+        "https://gitee.com/ttrgood/mb-out-releases/releases/download/runtimes/imagemagick-7.1.2-34.zip",
+        "https://github.com/ttrgood/mb-out-releases/releases/download/runtimes/imagemagick-7.1.2-34.zip"
+      ],
+      "bin": [
+        "magick.exe"
+      ],
+      "env": {
+        "MB_MAGICK": "magick.exe"
+      },
+      "detect": [
+        "magick"
+      ]
+    },
+    {
+      "id": "pandoc",
+      "name": "pandoc",
+      "version": "3.13",
+      "desc": "文档格式互转：Markdown、Word、HTML、PDF 等",
+      "kind": "zip",
+      "size": 42983200,
+      "sha256": "23e1f2e978a3df80db8bf65c9c59534f41a23140480cfb4f783a882ab7dc6a4e",
+      "urls": [
+        "https://gitee.com/ttrgood/mb-out-releases/releases/download/runtimes/pandoc-3.13.zip",
+        "https://github.com/ttrgood/mb-out-releases/releases/download/runtimes/pandoc-3.13.zip",
+        "https://github.com/jgm/pandoc/releases/download/3.13/pandoc-3.13-windows-x86_64.zip"
+      ],
+      "bin": [
+        "pandoc-3.13/pandoc.exe"
+      ],
+      "detect": [
+        "pandoc"
+      ]
+    },
+    {
+      "id": "poppler",
+      "name": "Poppler（PDF 工具）",
+      "version": "26.09.0",
+      "desc": "PDF 转图片、转文字、看 PDF 信息、取出 PDF 里的图片",
+      "kind": "zip",
+      "size": 43709956,
+      "sha256": "7a6f256a0ddf7536182246a5733331bf4677cbcc34f4663774947ad34556c8d0",
+      "urls": [
+        "https://github.com/ttrgood/mb-out-releases/releases/download/runtimes/poppler-26.09.0.zip",
+        "https://github.com/oschwartz10612/poppler-windows/releases/download/v26.09.0-0/Release-26.09.0-0.zip"
+      ],
+      "bin": [
+        "poppler-26.09.0/Library/bin/pdftoppm.exe",
+        "poppler-26.09.0/Library/bin/pdftotext.exe",
+        "poppler-26.09.0/Library/bin/pdfinfo.exe",
+        "poppler-26.09.0/Library/bin/pdfimages.exe"
+      ],
+      "detect": [
+        "pdftoppm",
+        "pdftotext",
+        "pdfinfo",
+        "pdfimages"
+      ]
+    },
+    {
+      "id": "qpdf",
+      "name": "qpdf",
+      "version": "12.4.2",
+      "desc": "PDF 合并、拆分、加密解密、修复",
+      "kind": "zip",
+      "size": 28183147,
+      "sha256": "db87077e683630c1217e0e8f9a20a9749d952ab676e881c3689187763a5de25d",
+      "urls": [
+        "https://github.com/ttrgood/mb-out-releases/releases/download/runtimes/qpdf-12.4.2.zip",
+        "https://github.com/qpdf/qpdf/releases/download/v12.4.2/qpdf-12.4.2-msvc64.zip"
+      ],
+      "bin": [
+        "qpdf-12.4.2-msvc64/bin/qpdf.exe"
+      ],
+      "detect": [
+        "qpdf"
+      ]
+    },
+    {
+      "id": "aria2",
+      "name": "aria2",
+      "version": "1.37.0",
+      "desc": "多线程下载",
+      "kind": "zip",
+      "size": 2475379,
+      "sha256": "67d015301eef0b612191212d564c5bb0a14b5b9c4796b76454276a4d28d9b288",
+      "urls": [
+        "https://gitee.com/ttrgood/mb-out-releases/releases/download/runtimes/aria2-1.37.0.zip",
+        "https://github.com/ttrgood/mb-out-releases/releases/download/runtimes/aria2-1.37.0.zip",
+        "https://github.com/aria2/aria2/releases/download/release-1.37.0/aria2-1.37.0-win-64bit-build1.zip"
+      ],
+      "bin": [
+        "aria2-1.37.0-win-64bit-build1/aria2c.exe"
+      ],
+      "detect": [
+        "aria2c"
+      ]
+    },
+    {
+      "id": "autohotkey",
+      "name": "AutoHotkey v2",
+      "version": "2.0.31",
+      "desc": "复杂的键盘鼠标自动化",
+      "kind": "zip",
+      "size": 3160453,
+      "sha256": "ca1a595aca4528755d8d4cd7fed23d497a37bd9a0b6892072612d68dee1bd00a",
+      "urls": [
+        "https://gitee.com/ttrgood/mb-out-releases/releases/download/runtimes/autohotkey-2.0.31.zip",
+        "https://github.com/ttrgood/mb-out-releases/releases/download/runtimes/autohotkey-2.0.31.zip",
+        "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.31/AutoHotkey_2.0.31.zip"
+      ],
+      "bin": [
+        "AutoHotkey64.exe"
+      ],
+      "env": {
+        "MB_AHK": "AutoHotkey64.exe"
+      },
+      "detect": [
+        "AutoHotkey64",
+        "AutoHotkey"
+      ]
+    }
+  ]
+}
