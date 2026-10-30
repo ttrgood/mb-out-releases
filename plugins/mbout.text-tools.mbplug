@@ -1,0 +1,30 @@
+{
+  "mbout_plugin": 1,
+  "id": "mbout.text-tools",
+  "name": "文本小工具",
+  "version": "1.0",
+  "author": "MB out",
+  "description": "选中一段文字再点：算式求值、数字求和、去空行、去重、全角转半角",
+  "items": [
+    {
+      "kind": "script", "name": "算一下", "mode": "notify", "icon": "v:chart",
+      "value": "$e = ($env:MB_SELECTION -replace '[×xX]', '*' -replace '÷', '/' -replace '，', '' -replace ',', '').Trim()\nif ($e -notmatch '^[\\d\\s\\.\\+\\-\\*/\\(\\)%]+$') { throw '选中的不是算式（只认数字和 + - × ÷ 括号）' }\n$r = Invoke-Expression $e\nSet-Clipboard -Value $r\nWrite-Output (\"$e = $r（已复制）\")"
+    },
+    {
+      "kind": "script", "name": "数字求和", "mode": "notify",
+      "value": "$n = [regex]::Matches(($env:MB_SELECTION -replace '(?<=\\d),(?=\\d{3})', ''), '-?\\d+(\\.\\d+)?') | ForEach-Object { [double]$_.Value }\nif (-not $n) { throw '选中的文字里没有数字' }\n$s = ($n | Measure-Object -Sum).Sum\nSet-Clipboard -Value $s\nWrite-Output (\"$($n.Count) 个数，合计 $s（已复制）\")"
+    },
+    {
+      "kind": "script", "name": "去空行", "mode": "replace",
+      "value": "($env:MB_SELECTION -split \"\\r?\\n\" | Where-Object { $_.Trim() }) -join \"`r`n\""
+    },
+    {
+      "kind": "script", "name": "去重行", "mode": "replace",
+      "value": "$seen = @{}\n($env:MB_SELECTION -split \"\\r?\\n\" | Where-Object { $k = $_.Trim(); if ($seen.ContainsKey($k)) { $false } else { $seen[$k] = 1; $true } }) -join \"`r`n\""
+    },
+    {
+      "kind": "script", "name": "全角转半角", "mode": "replace",
+      "value": "$sb = New-Object System.Text.StringBuilder\nforeach ($c in $env:MB_SELECTION.ToCharArray()) { $v = [int]$c; if ($v -eq 0x3000) { [void]$sb.Append(' ') } elseif ($v -ge 0xFF01 -and $v -le 0xFF5E) { [void]$sb.Append([char]($v - 0xFEE0)) } else { [void]$sb.Append($c) } }\n$sb.ToString()"
+    }
+  ]
+}
