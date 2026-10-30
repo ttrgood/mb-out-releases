@@ -1,6 +1,6 @@
 {
   "mbout_plugin_index": 1,
-  "updated": "2026-10-30T02:59:18-05:00",
+  "updated": "2026-10-30T02:59:21-05:00",
   "submit_url": "",
   "plugins": [
     {
@@ -55,6 +55,24 @@
       "urls": [
         "https://gitee.com/ttrgood/mb-out-releases/raw/main/plugins/mbout.everything.mbplug",
         "https://raw.githubusercontent.com/ttrgood/mb-out-releases/main/plugins/mbout.everything.mbplug"
+      ]
+    },
+    {
+      "id": "mbout.pinyin-retype",
+      "name": "拼音重输",
+      "version": "1.0",
+      "author": "MB out",
+      "description": "选中打错的拼音或汉字，一键删掉并切到中文输入法重新输入（汉字自动转拼音，判断多音字）。适配手心、微软拼音、搜狗、QQ、百度、讯飞、微信输入法等",
+      "items": 1,
+      "size": 691635,
+      "sha256": "d5b0ccae0dc2f4f59e7bd85ffc47b443b31d2f88df860e204756d8199f7c0cdd",
+      "min_app": "",
+      "updated": "2026-10-30",
+      "source": "official",
+      "uploader": "",
+      "urls": [
+        "https://gitee.com/ttrgood/mb-out-releases/raw/main/plugins/mbout.pinyin-retype.mbplug",
+        "https://raw.githubusercontent.com/ttrgood/mb-out-releases/main/plugins/mbout.pinyin-retype.mbplug"
       ]
     }
   ]
