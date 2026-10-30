@@ -1,0 +1,15 @@
+{
+  "mbout_plugin": 1,
+  "id": "mbout.search",
+  "name": "常用搜索",
+  "version": "1.0",
+  "author": "MB out",
+  "description": "选中文字，一点就在对应网站里搜",
+  "items": [
+    { "kind": "url", "name": "必应", "value": "https://cn.bing.com/search?q={选中}", "icon": "v:search" },
+    { "kind": "url", "name": "知乎", "value": "https://www.zhihu.com/search?q={选中}", "icon": "v:chat", "icon_color": "#4a8fe0" },
+    { "kind": "url", "name": "B 站", "value": "https://search.bilibili.com/all?keyword={选中}", "icon": "v:video", "icon_color": "#e0729a" },
+    { "kind": "url", "name": "淘宝", "value": "https://s.taobao.com/search?q={选中}", "icon": "v:cart", "icon_color": "#e88a3c" },
+    { "kind": "url", "name": "地图", "value": "https://map.baidu.com/search/{选中}", "icon": "v:map", "icon_color": "#4cae7c" }
+  ]
+}
