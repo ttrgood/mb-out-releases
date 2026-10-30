@@ -1,6 +1,6 @@
 {
   "mbout_plugin_index": 1,
-  "updated": "2026-10-30T02:59:34-05:00",
+  "updated": "2026-10-30T07:59:51-05:00",
   "submit_url": "https://1521114290-325mb76av1.ap-guangzhou.tencentscf.com/submit",
   "plugins": [
     {
@@ -10,8 +10,8 @@
       "author": "MB out",
       "description": "选中文字，一点就在对应网站里搜",
       "items": 5,
-      "size": 859,
-      "sha256": "456f273b7729488ede87a9725cae90c486dad825062f59e611a54fbe6808f760",
+      "size": 1097,
+      "sha256": "e5da6e6f50e0865eb466b3be10e2890c0978d645687d989cd1c1a8f1fdcdb074",
       "min_app": "",
       "updated": "2026-10-30",
       "source": "official",
@@ -19,7 +19,8 @@
       "urls": [
         "https://gitee.com/ttrgood/mb-out-releases/raw/main/plugins/mbout.search.mbplug",
         "https://raw.githubusercontent.com/ttrgood/mb-out-releases/main/plugins/mbout.search.mbplug"
-      ]
+      ],
+      "cover": "v:search|#60a5fa"
     },
     {
       "id": "mbout.text-tools",
