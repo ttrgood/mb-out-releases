@@ -1,6 +1,6 @@
 {
   "mbout_plugin_index": 1,
-  "updated": "2026-10-30T07:59:54-05:00",
+  "updated": "2026-10-30T07:59:58-05:00",
   "submit_url": "https://1521114290-325mb76av1.ap-guangzhou.tencentscf.com/submit",
   "plugins": [
     {
@@ -48,8 +48,8 @@
       "author": "MB out",
       "description": "用 Everything 秒搜文件：搜选中的文字、只搜当前文件夹、找同名文件、今天改过的、大文件。没装 Everything 的电脑上第一次点会问要不要从官网下载安装（核对官方数字签名后才安装）",
       "items": 5,
-      "size": 34292,
-      "sha256": "07669ca66ecc6383e95eaa698b0fbb5098d6fb54d8421ee1220ee811a70a43d2",
+      "size": 34322,
+      "sha256": "a82dbef27ce5f833a46500811f0070a9ecd00ade43c7bc1d3fbd8869ab7360cc",
       "min_app": "",
       "updated": "2026-10-30",
       "source": "official",
@@ -57,7 +57,8 @@
       "urls": [
         "https://gitee.com/ttrgood/mb-out-releases/raw/main/plugins/mbout.everything.mbplug",
         "https://raw.githubusercontent.com/ttrgood/mb-out-releases/main/plugins/mbout.everything.mbplug"
-      ]
+      ],
+      "cover": "v:file|#f59f4c"
     },
     {
       "id": "mbout.pinyin-retype",

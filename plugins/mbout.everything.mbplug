@@ -5,6 +5,7 @@
   "version": "1.1",
   "author": "MB out",
   "description": "用 Everything 秒搜文件：搜选中的文字、只搜当前文件夹、找同名文件、今天改过的、大文件。没装 Everything 的电脑上第一次点会问要不要从官网下载安装（核对官方数字签名后才安装）",
+  "cover": "v:file|#f59f4c",
   "items": [
     {
       "kind": "script",
