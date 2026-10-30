@@ -1,0 +1,12 @@
+{
+  "version": "3.0.0",
+  "title": "3.0",
+  "notes": "3.0 新功能：\n· 插件商店：软件里直接装插件，有新版本会提示；让 AI 帮你写插件，一键上传分享\n· 快捷面板：大方块、滚轮翻页、以鼠标为中心弹出\n· 笔记：编辑时图片直接显示，能拖文件、粘贴截图\n· 附件：链接导入的文件可以单独改为文件导入\n· 截图：Snipaste 式操作、7 种箭头\n· 右上角搜索可选范围；完整备份、回收站、流程模板\n· 默认装到非系统盘；看图窗口图片居中、圆角\n· 拼音重输改成插件商店里的插件",
+  "sha256": "8910de3c241120b7a1f38c800bb018d27802feefd5025473b0f940219484615b",
+  "size": 32884988,
+  "urls": [
+    "https://gitee.com/ttrgood/mb-out-releases/releases/download/v3.0.0/MBout-Setup-3.0.0.exe",
+    "https://github.com/ttrgood/mb-out-releases/releases/download/v3.0.0/MBout-Setup-3.0.0.exe"
+  ],
+  "page": "https://gitee.com/ttrgood/mb-out-releases/releases"
+}
