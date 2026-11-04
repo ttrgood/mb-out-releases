@@ -1,6 +1,6 @@
 {
   "mbout_plugin_index": 1,
-  "updated": "2026-10-30T08:00:01-05:00",
+  "updated": "2026-11-04T00:19:45-06:00",
   "submit_url": "https://1521114290-325mb76av1.ap-guangzhou.tencentscf.com/submit",
   "plugins": [
     {
@@ -78,6 +78,25 @@
         "https://raw.githubusercontent.com/ttrgood/mb-out-releases/main/plugins/mbout.pinyin-retype.mbplug"
       ],
       "cover": "v:retype|#34d399"
+    },
+    {
+      "id": "mbout.ocr-excel",
+      "name": "截图转 Excel",
+      "version": "1.0",
+      "author": "MB out",
+      "description": "框选屏幕上的表格，自动认字、按位置分好行和列，存成 Excel 文件并打开。识别用 MB out 自带的离线识别，不联网；文件存在「文档\\MB out 截图表格」。识别结果可能有误，金额等数字请核对后再用。",
+      "items": 1,
+      "size": 83277,
+      "sha256": "62807fa13d687315be89df42ca6e0aaf71639b9ce73b0ed22410093dbb5eea2c",
+      "min_app": "",
+      "updated": "2026-11-04",
+      "source": "community",
+      "uploader": "ttr",
+      "urls": [
+        "https://gitee.com/ttrgood/mb-out-releases/raw/main/plugins/mbout.ocr-excel.mbplug",
+        "https://raw.githubusercontent.com/ttrgood/mb-out-releases/main/plugins/mbout.ocr-excel.mbplug"
+      ],
+      "cover": "v:chart|#22a06b"
     }
   ]
 }
