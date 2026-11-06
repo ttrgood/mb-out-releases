@@ -1,0 +1,11 @@
+{
+  "version_code": 5,
+  "version_name": "0.5",
+  "notes": "输入框修好了：键盘弹出时输入框不再被挤成一条缝，下面的按钮会自动变小",
+  "size": 1760085,
+  "sha256": "3090d2581639b5dd6e0eaff66104fe51a76e0ada8fa70ecfe67480ddb465801c",
+  "urls": [
+    "https://gitee.com/ttrgood/mb-out-releases/releases/download/phone-v0.5/MBout-Phone-0.5.apk",
+    "https://github.com/ttrgood/mb-out-releases/releases/download/phone-v0.5/MBout-Phone-0.5.apk"
+  ]
+}
