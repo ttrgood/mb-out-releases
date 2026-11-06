@@ -1,6 +1,6 @@
 {
   "mbout_plugin_index": 1,
-  "updated": "2026-11-04T00:19:45-06:00",
+  "updated": "2026-11-05T19:40:40-06:00",
   "submit_url": "https://1521114290-325mb76av1.ap-guangzhou.tencentscf.com/submit",
   "plugins": [
     {
@@ -97,6 +97,25 @@
         "https://raw.githubusercontent.com/ttrgood/mb-out-releases/main/plugins/mbout.ocr-excel.mbplug"
       ],
       "cover": "v:chart|#22a06b"
+    },
+    {
+      "id": "mbout.rmb-upper",
+      "name": "金额大写",
+      "version": "1.0",
+      "author": "MB out",
+      "description": "打开一个小窗口：输入阿拉伯数字，马上显示中文大写金额（壹万贰仟叁佰肆拾伍元陆角柒分），一键复制。支持 1,280、3.5万、1200×3.5 这样的写法；先选中一个数再点会自动填进去。只在窗口里转换，不改原文。",
+      "items": 1,
+      "size": 17039,
+      "sha256": "6605d74a97670f283f6fa494c1610dc0438f31e93744efb98443675e41c7f14e",
+      "min_app": "",
+      "updated": "2026-11-05",
+      "source": "official",
+      "uploader": "",
+      "urls": [
+        "https://gitee.com/ttrgood/mb-out-releases/raw/main/plugins/mbout.rmb-upper.mbplug",
+        "https://raw.githubusercontent.com/ttrgood/mb-out-releases/main/plugins/mbout.rmb-upper.mbplug"
+      ],
+      "cover": "v:yen|#f59e0b"
     }
   ]
 }
