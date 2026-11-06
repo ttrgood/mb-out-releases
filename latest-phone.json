@@ -1,11 +1,11 @@
 {
-  "version_code": 5,
-  "version_name": "0.5",
-  "notes": "输入框修好了：键盘弹出时输入框不再被挤成一条缝，下面的按钮会自动变小",
-  "size": 1760085,
-  "sha256": "3090d2581639b5dd6e0eaff66104fe51a76e0ada8fa70ecfe67480ddb465801c",
+  "version_code": 6,
+  "version_name": "0.6",
+  "notes": "键盘弹出和收起时更顺滑：下面的按钮跟着键盘慢慢变化，不再突然跳一下",
+  "size": 1760081,
+  "sha256": "45a2ecbf11bb47c0c312e2f05061c203cd79c94bcda8ef9c5896d205079917e7",
   "urls": [
-    "https://gitee.com/ttrgood/mb-out-releases/releases/download/phone-v0.5/MBout-Phone-0.5.apk",
-    "https://github.com/ttrgood/mb-out-releases/releases/download/phone-v0.5/MBout-Phone-0.5.apk"
+    "https://gitee.com/ttrgood/mb-out-releases/releases/download/phone-v0.6/MBout-Phone-0.6.apk",
+    "https://github.com/ttrgood/mb-out-releases/releases/download/phone-v0.6/MBout-Phone-0.6.apk"
   ]
 }
