@@ -6,6 +6,7 @@
   "iter": 600000,
   "check": "QDE2dl9yTOWQUVlZW1BYKg==",
   "urls": [
+    "https://gitee.com/ttrgood/mb-out-releases/releases/download/wxocr-1/MBWX-1.bin",
     "https://github.com/ttrgood/mb-out-releases/releases/download/wxocr-1/MBWX-1.bin"
   ]
 }
