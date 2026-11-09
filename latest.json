@@ -1,12 +1,12 @@
 {
-  "version": "3.1.0",
-  "title": "3.1",
-  "notes": "3.1 新功能：\n· 笔记更好找：存常用筛选为「我的视图」，搜索显示命中句，图片里的字也能搜到，正文能选中复制\n· 翻译选中：直接显示译文，译文也能选中加为任务、存为笔记\n· 约 7200 个矢量图标，中文、拼音、英文都能搜，能转成像素图再改\n· 今天 / 总览里每条任务标出来自哪个清单；完成记录带缩略图\n· 插件商店新增「金额大写」「截图转 Excel」\n· 修了剪贴板有超长内容时界面卡住的问题",
-  "sha256": "3e362dbcfe076c3914d8f3553ce5028cf4a91f67daba78da77182607f327f1fa",
-  "size": 34206239,
+  "version": "3.2.0",
+  "title": "3.2",
+  "notes": "识别文字可选百度高精度识别（用你自己的 Key，选用后图片会上传到百度）；翻译可选离线模型、翻译密钥或已设置的 AI，并支持术语库；修复顶部日期显示不全。",
+  "sha256": "ad7e001dc5f8f75ff798bea7bffc1b23f62734fb472946ffa7940e3e0d7ded22",
+  "size": 34257006,
   "urls": [
-    "https://gitee.com/ttrgood/mb-out-releases/releases/download/v3.1.0/MBout-Setup-3.1.0.exe",
-    "https://github.com/ttrgood/mb-out-releases/releases/download/v3.1.0/MBout-Setup-3.1.0.exe"
+    "https://gitee.com/ttrgood/mb-out-releases/releases/download/v3.2.0/MBout-Setup-3.2.0.exe",
+    "https://github.com/ttrgood/mb-out-releases/releases/download/v3.2.0/MBout-Setup-3.2.0.exe"
   ],
   "page": "https://gitee.com/ttrgood/mb-out-releases/releases"
 }
