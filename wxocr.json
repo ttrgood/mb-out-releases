@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "size": 35406920,
+  "sha256": "9f432962b1f8ee748aa82f205c227c00156d591f1875d65414bfa7e42b073f8a",
+  "salt": "sxQiCQcV/+RyrrDu6zgaDg==",
+  "iter": 600000,
+  "check": "QDE2dl9yTOWQUVlZW1BYKg==",
+  "urls": [
+    "https://github.com/ttrgood/mb-out-releases/releases/download/wxocr-1/MBWX-1.bin"
+  ]
+}
