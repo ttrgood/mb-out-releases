@@ -1,6 +1,6 @@
 {
   "mbout_plugin_index": 1,
-  "updated": "2026-11-25T01:35:48-06:00",
+  "updated": "2026-11-25T01:35:54-06:00",
   "submit_url": "https://1521114290-325mb76av1.ap-guangzhou.tencentscf.com/submit",
   "plugins": [
     {
@@ -116,6 +116,25 @@
         "https://raw.githubusercontent.com/ttrgood/mb-out-releases/main/plugins/mbout.rmb-upper.mbplug"
       ],
       "cover": "v:yen|#f59e0b"
+    },
+    {
+      "id": "mbout.calc",
+      "name": "计算器",
+      "version": "1.6",
+      "author": "MB out",
+      "description": "像写算稿一样算：一行一笔，右边马上出结果，下面自动合计，不用按等号。中文输入法打出来的 × ÷ 、 。 【】 全角数字都认，x 当乘号；支持 3.5万、1,280、15%、1000+9%、2²、√9、括号不配对自动补；带单位也行（3000mm×2.8m、12m²）。冒号前写备注（外墙：3.6×2.8），开头是运算符的行接着上一行的结果算，空一行另起一段；「2号楼」这种单独一行当小标题。Excel 复制的一列直接粘贴就合计。「合并成一行」只在需要的地方加括号，「统一符号」可换成直观的 × ÷ 或能直接贴进 Excel 的 * /；「复制 Excel 公式」把一段合成带 = 的公式（开逐笔舍入时每笔套 ROUND）。点结果复制，「复制算稿」带算式贴进计算书；小数位可选，可逐笔舍入；窗口右下角可拉大。先选中算式或一列数字再点，会自动填进去。第一次点要几秒（编译一次），以后很快；关掉只是藏起来，再点马上出来。",
+      "items": 1,
+      "size": 148350,
+      "sha256": "02808c3744a42e764b3226f6b5c1baca60031d7623b56de859cd251846ec0456",
+      "min_app": "",
+      "updated": "2026-11-25",
+      "source": "official",
+      "uploader": "",
+      "urls": [
+        "https://gitee.com/ttrgood/mb-out-releases/raw/main/plugins/mbout.calc.mbplug",
+        "https://raw.githubusercontent.com/ttrgood/mb-out-releases/main/plugins/mbout.calc.mbplug"
+      ],
+      "cover": "v:calculator-variant|#38bdf8"
     }
   ]
 }
