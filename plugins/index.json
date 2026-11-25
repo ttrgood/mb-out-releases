@@ -1,6 +1,6 @@
 {
   "mbout_plugin_index": 1,
-  "updated": "2026-11-25T01:35:32-06:00",
+  "updated": "2026-11-25T01:35:48-06:00",
   "submit_url": "https://1521114290-325mb76av1.ap-guangzhou.tencentscf.com/submit",
   "plugins": [
     {
@@ -25,14 +25,14 @@
     {
       "id": "mbout.text-tools",
       "name": "文本小工具",
-      "version": "1.0",
+      "version": "1.1",
       "author": "MB out",
       "description": "选中一段文字再点：算式求值、数字求和、去空行、去重、全角转半角",
       "items": 5,
-      "size": 2074,
-      "sha256": "d44d9954f43298eaccfe40854ee8854bf03ea9db68986b4d2f189bf577f9f86b",
+      "size": 2408,
+      "sha256": "e1e51ca91fbb21c90ff6693e1b656427aaedd8ad117b142294a2c6503288fcc6",
       "min_app": "",
-      "updated": "2026-10-30",
+      "updated": "2026-11-25",
       "source": "official",
       "uploader": "",
       "urls": [

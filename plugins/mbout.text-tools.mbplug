@@ -2,7 +2,7 @@
   "mbout_plugin": 1,
   "id": "mbout.text-tools",
   "name": "文本小工具",
-  "version": "1.0",
+  "version": "1.1",
   "author": "MB out",
   "description": "选中一段文字再点：算式求值、数字求和、去空行、去重、全角转半角",
   "cover": "v:text|#a78bfa",
@@ -12,13 +12,13 @@
       "name": "算一下",
       "mode": "notify",
       "icon": "v:chart",
-      "value": "$e = ($env:MB_SELECTION -replace '[×xX]', '*' -replace '÷', '/' -replace '，', '' -replace ',', '').Trim()\nif ($e -notmatch '^[\\d\\s\\.\\+\\-\\*/\\(\\)%]+$') { throw '选中的不是算式（只认数字和 + - × ÷ 括号）' }\n$r = Invoke-Expression $e\nSet-Clipboard -Value $r\nWrite-Output (\"$e = $r（已复制）\")"
+      "value": "$e = ($env:MB_SELECTION -replace '[×xX]', '*' -replace '÷', '/' -replace '，', '' -replace ',', '').Trim()\nif ($e -notmatch '^[\\d\\s\\.\\+\\-\\*/\\(\\)%]+$') { throw '选中的不是算式（只认数字和 + - × ÷ 括号）' }\n$r = Invoke-Expression $e\nAdd-Type -AssemblyName System.Windows.Forms\ntry { [Windows.Forms.Clipboard]::SetDataObject([string]$r, $true, 60, 50) } catch { throw '剪贴板被别的程序占着，再点一下试试' }\nWrite-Output (\"$e = $r（已复制）\")"
     },
     {
       "kind": "script",
       "name": "数字求和",
       "mode": "notify",
-      "value": "$n = [regex]::Matches(($env:MB_SELECTION -replace '(?<=\\d),(?=\\d{3})', ''), '-?\\d+(\\.\\d+)?') | ForEach-Object { [double]$_.Value }\nif (-not $n) { throw '选中的文字里没有数字' }\n$s = ($n | Measure-Object -Sum).Sum\nSet-Clipboard -Value $s\nWrite-Output (\"$($n.Count) 个数，合计 $s（已复制）\")"
+      "value": "$n = [regex]::Matches(($env:MB_SELECTION -replace '(?<=\\d),(?=\\d{3})', ''), '-?\\d+(\\.\\d+)?') | ForEach-Object { [double]$_.Value }\nif (-not $n) { throw '选中的文字里没有数字' }\n$s = ($n | Measure-Object -Sum).Sum\nAdd-Type -AssemblyName System.Windows.Forms\ntry { [Windows.Forms.Clipboard]::SetDataObject([string]$s, $true, 60, 50) } catch { throw '剪贴板被别的程序占着，再点一下试试' }\nWrite-Output (\"$($n.Count) 个数，合计 $s（已复制）\")"
     },
     {
       "kind": "script",
